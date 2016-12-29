@@ -1,0 +1,50 @@
+{% extends "layout/main.html.twig" %}
+{% block title %}Hub{% endblock %}
+{% block head %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ base_url() }}/css/hub.css"/>
+{% endblock %}
+
+{% block header %}
+<nav>
+    <div class="nav-wrapper light-green darken-2">
+        <a href="#" class="brand-logo center">Ammonix Hub</a>
+        <ul id="nav-mobile">
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+</nav>
+{% endblock %}
+
+{% block main %}
+    <div class="container center">
+        <h2>Platz</h2>
+        <h4>halter</h4>
+    </div>
+{% endblock %}
+
+{% block footer %}
+<div class="container">
+    <div class="row">
+        <div class="col l9 s12">
+            <h5 class="white-text">Titel</h5>
+            <p class="grey-text text-lighten-4"> Text von Joan Künzler (thx)<br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        </div>
+        <div class="col l3 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+                <li><a class="white-text" href="#">Link 1</a></li>
+                <li><a class="white-text" href="#">Link 2</a></li>
+                <li><a class="white-text" href="#">Link 3</a></li>
+                <li><a class="white-text" href="#">Link 4</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer-copyright">
+    <div class="container">
+        Made by <a class="green-text text-lighten-2" href="https://github.com/ammonix">Joan Künzler</a>
+        and <a class="green-text text-lighten-2" href="https://github.com/DeHeeeb">Lukas Heeb</a>
+    </div>
+</div>
+{% endblock %}
