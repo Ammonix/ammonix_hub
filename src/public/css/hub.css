@@ -1,4 +1,17 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
 footer{
-  bottom: 0;
-  position: fixed;
+  width: 100%;
+}
+.collection .collection-item.avatar{
+  min-height: initial;
+}
+a[disabled="disabled"]{
+  cursor: default;
 }

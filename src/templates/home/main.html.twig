@@ -9,17 +9,101 @@
 <nav>
     <div class="nav-wrapper light-green darken-2">
         <a href="#" class="brand-logo center">Ammonix Hub</a>
-        <ul id="nav-mobile">
-            <li><a href="#">About</a></li>
-        </ul>
     </div>
 </nav>
 {% endblock %}
 
 {% block main %}
-    <div class="container center">
-        <h2>Platz</h2>
-        <h4>halter</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="{{ base_url() }}/images/quotes.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Quotes</span>
+                        <p>Deine besten Zitate.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="green-text" href="https://quotes.ammonix.ch">Besuchen</a>
+                    </div>
+                    <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                        <span class="card-title grey-text text-darken-4">Team<i class="material-icons right">close</i></span>
+                        <ul class="collection">
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Joan Künzler</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/ammonix">Github</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator blue" src="{{ base_url() }}/images/journey.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Journey</span>
+                        <p>Deine Geschichte in Bildern.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="green-text" href="https://journey.ammonix.ch/html/allPictures.html">Besuchen</a>
+                    </div>
+                    <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                        <span class="card-title grey-text text-darken-4">Team<i class="material-icons right">close</i></span>
+                        <ul class="collection">
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Tim Pfister</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/Sphenox">Github</a></p>
+                            </li>
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Florian Wahl</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/FlorianWahl">Github</a></p>
+                            </li>
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Arjuna Sinnathurai</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/Utschu">Github</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator blue" src="{{ base_url() }}/images/musicmanager.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Music Manager</span>
+                        <p>Deine Lieblings-Bands an einem Ort.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="grey-text" href="#" disabled="disabled">Demnächst</a>
+                    </div>
+                    <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                        <span class="card-title grey-text text-darken-4">Team<i class="material-icons right">close</i></span>
+                        <ul class="collection">
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Joan Künzler</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/ammonix">Github</a></p>
+                            </li>
+                            <li class="collection-item avatar">
+                                <i class="material-icons circle light-green">perm_identity</i>
+                                <span class="title">Lukas Heeb</span>
+                                <p><a class="grey-text" target="_blank" href="https://github.com/DeHeeeb">Github</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
