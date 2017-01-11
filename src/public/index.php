@@ -25,7 +25,7 @@ $container['view'] = function ($c) {
         'debug' => true
     ]);
     // Instantiate and add Slim specific extension
-    $basePath = "http://hub.localhost.ch";
+    $basePath = "https://ammonix.ch";
     $view->addExtension(new Slim\Views\TwigExtension($c['router'], $basePath));
     return $view;
 };

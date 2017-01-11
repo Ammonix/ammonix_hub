@@ -11,18 +11,14 @@
 </head>
 <body class="light-green lighten-2">
 
-<header>
-    {% block header %}
-    {% endblock %}
-</header>
-<main>
-    {% block main %}
-    {% endblock %}
-</main>
-<footer class="page-footer light-green darken-2">
-    {% block footer %}
-    {% endblock %}
-</footer>
+{% block header %}
+    {{ include('layout/header.html.twig') }}
+{% endblock %}
+{% block main %}
+{% endblock %}
+{% block footer %}
+    {{ include('layout/footer.html.twig') }}
+{% endblock %}
 
 
 {% block js %}
