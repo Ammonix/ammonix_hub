@@ -1,2 +1,2 @@
 # AMMONIX HUB
-created by lheeb (https://github.com/lheeb)
+created by https://github.com/lheeb
